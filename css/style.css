@@ -1,0 +1,71 @@
+.sidenav {
+  height: 100%;
+  width: 190px;
+  position: fixed;
+  z-index: 1;
+  top: 60px;
+  left: 0;
+  background-color: #CBC6BF;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 6px 16px;
+  text-decoration: none;
+  font-size: 14px;
+  color: black;
+  display: block;
+  text-align: center;
+}
+
+.main {
+  margin-left: 190px;
+  font-size: 20px;
+  padding: 0px 10px;
+  margin-top: 28px;
+}
+
+.column {
+  row-gap: 10px;
+  float: left;
+  width: 30.33%;
+  padding: 10px;
+  height: 300px;
+}
+
+.btn-primary {
+  background-color: #4495A7 !important;
+  border: #4495A7 !important;
+  color: white !important;
+  width: 150px;
+  height: 35px;
+  margin-left: 20px;
+  border-radius: 12px !important;
+}
+.btn-success{
+  background-color: #4495A7 !important;
+  border: #4495A7 !important;
+  border-radius: 12px !important;
+  font-size: 18px!important;
+
+}
+.btn-invite{
+  background-color: #4495A7 !important;
+  border: #4495A7 !important;
+  border-radius: 12px !important;
+  font-size: 18px!important;
+  width: 100px;
+  color: white!important;
+
+}
+.btn-secondary {
+  color: black!important;
+  background-color: white!important;
+  border: none!important;
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
