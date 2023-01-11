@@ -42,7 +42,8 @@
 
   <div class="main">
     <div class="d-flex">
-     <button class="ms-auto btn-success">  <a href="./Adduser.html" class="add-btn">  + Add New User </a></button> 
+        <button class="ms-auto btn-success">  <a href="./Adduser.html" class="add-btn">  + Add New User </a></button> 
+
     </div>
    
     <table class="table mt-4  table-bordered">
@@ -73,7 +74,24 @@
             </div>  
           </td>
         </tr>
-       
+        <tr>
+            <th scope="row"> <input type="text" class="form-control" id="exampleFormControlInput1" ></th>
+            <td> <input type="text" class="form-control" id="exampleFormControlInput1" ></td>
+            <td> <input type="text" class="form-control" id="exampleFormControlInput1" ></td>
+            <td>
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  Teacher
+                </button>
+                <i class="bi bi-trash-fill"></i>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Student</a></li>
+                  <li><a class="dropdown-item" href="#">Admin</a></li>
+                  <li><a class="dropdown-item" href="#">Guest</a></li>
+                </ul>
+              </div>  
+            </td>
+        </tr>
       
       </tbody>
     </table>
